@@ -3,9 +3,9 @@
   --badge-default-bg-color: #f2f4f6;
   --badge-default-border-color: transparent;
   --badge-success-color: #1c8234;
-  --badge-success-bg-color: rgba(28, 130, 52, 0.1);
+  --badge-success-bg-color: rgb(28 130 52 / 10%);
   --badge-error-color: #d73847;
-  --badge-error-bg-color: rgba(215, 56, 71, 0.1);
+  --badge-error-bg-color: rgb(215 56 71 / 10%);
 }
 
 :root[data-theme="dark"] {
@@ -13,9 +13,9 @@
   --badge-default-bg-color: #24272a;
   --badge-default-border-color: #bbc0c5;
   --badge-success-color: #28a745;
-  --badge-success-bg-color: rgba(40, 167, 69, 0.15);
+  --badge-success-bg-color: rgb(40 167 69 / 15%);
   --badge-error-color: #e06470;
-  --badge-error-bg-color: rgba(224, 100, 112, 0.15);
+  --badge-error-bg-color: rgb(224 100 112 / 15%);
 }
 
 .badge {
