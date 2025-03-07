@@ -1,18 +1,18 @@
 :root[data-theme="dark"] {
-  --alert-error-background: rgb(53, 40, 41);
+  --alert-error-background: rgb(53 40 41);
   --alert-error-border: #e06470;
-  --alert-success-background: rgb(34, 48, 36);
+  --alert-success-background: rgb(34 48 36);
   --alert-success-border: #28a745;
-  --alert-info-background: rgb(61, 57, 43);
+  --alert-info-background: rgb(61 57 43);
   --alert-info-border: #ffdf70;
 }
 
 :root[data-theme="light"] {
-  --alert-error-background: rgb(248, 235, 237);
+  --alert-error-background: rgb(248 235 237);
   --alert-error-border: #d73847;
-  --alert-success-background: rgb(234, 242, 235);
+  --alert-success-background: rgb(234 242 235);
   --alert-success-border: #1c8234;
-  --alert-info-background: rgb(247, 238, 231);
+  --alert-info-background: rgb(247 238 231);
   --alert-info-border: #bf5208;
 }
 

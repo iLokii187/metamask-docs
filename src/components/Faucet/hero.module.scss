@@ -33,14 +33,14 @@
   background-position: 100% 0;
   background-size: auto 100%;;
 
-  @media screen and (max-width: 996px) {
+  @media screen and (width <= 996px) {
     background-image: none;
   }
 
   .actions {
     display: flex;
 
-    @media screen and (max-width: 996px) {
+    @media screen and (width <= 996px) {
       flex-direction: column;
     }
 
@@ -52,7 +52,7 @@
       max-width: 600px;
       width: 100%;
 
-      @media screen and (max-width: 996px) {
+      @media screen and (width <= 996px) {
         max-width: 100%;
       }
 
@@ -72,7 +72,7 @@
     .button {
       height: 48px;
 
-      @media screen and (max-width: 996px) {
+      @media screen and (width <= 996px) {
         width: 100%;
       }
     }
