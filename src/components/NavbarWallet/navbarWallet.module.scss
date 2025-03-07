@@ -13,7 +13,7 @@
 }
 
 :global([class*="navbarSearchContainer"]) {
-  @media (max-width: 996px) {
+  @media (width <= 996px) {
     position: relative !important;
     right: 0 !important;
   }
@@ -70,16 +70,15 @@
     right: -8px;
     background-color: var(--ifm-navbar-background-color);
     border-radius: 6px;
-    box-shadow: 0 3px 8px 0 rgba(44, 59, 88, 0.35);
+    box-shadow: 0 3px 8px 0 rgb(44 59 88 / 35%);
 
     .item {
       padding: 12px;
       display: flex;
-      flex-direction: row;
-      flex-wrap: nowrap;
+      flex-flow: row nowrap;
       align-items: center;
       font-size: 14px;
-      border-bottom: 1px solid rgba(133, 139, 154, 0.2);
+      border-bottom: 1px solid rgb(133 139 154 / 20%);
 
       &:last-child {
         border-bottom: none;
@@ -120,8 +119,7 @@
 
 .innerItemWrap {
   display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
+  flex-flow: row nowrap;
   align-items: center;
 }
 
@@ -148,7 +146,7 @@
   justify-content: center;
   height: 25px;
   min-width: 45px;
-  padding: 4px 4px 6px 4px;
+  padding: 4px 4px 6px;
   margin-left: 10px;
   background-color: var(--tag-bg-color);
   color: var(--tag-color);

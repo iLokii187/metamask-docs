@@ -1,11 +1,11 @@
 :root[data-theme="dark"] {
   --accordion-background: #24272a;
-  --accordion-border: rgba(132, 140, 150, 0.16);
+  --accordion-border: rgb(132 140 150 / 16%);
 }
 
 :root[data-theme="light"] {
-  --accordion-background: #ffffff;
-  --accordion-border: rgba(187, 192, 197, 0.4);
+  --accordion-background: #fff;
+  --accordion-border: rgb(187 192 197 / 40%);
 }
 
 .accordion {
